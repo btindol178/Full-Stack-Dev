@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is the title</title>
+  </head>
+  <body>
+    <!-- control backslash to make a comment -->
+    <!-- can highlight then control command forward slash to comment -->
+    <!-- To put this into browser just rightclick and copy file path and paste into browser -->
+
+    <h1> This is a heading 1 </h1>
+    <h2> This is a heading 2 </h2>
+    <h3> This is a heading 3 </h3>
+    <h6> This is a heading 6 </h6>
+
+    <p> This is a paragraph
+        that stays on one line</p>
+
+    <p> This is a paragraph</p>
+    <p>that continues down</p>
+    <p>to multiple lines</p>
+
+    <!-- This is the same as the code above  -->
+    <p> This is a paragraph</p> <p>that continues down</p> <p>to multiple lines</p>
+
+    <!-- Lorem is how you get filler text in latten  -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<!-- Old way of doing things -->
+    <p><b> This is text is in bold </b></p>
+    <p><i> This is text that is in italic <i></p>
+<!-- New way of doing things -->
+    <p><strong> This is text is in bold </strong></p>
+    <p><em> This is text that is in italic <em></p>
+
+
+  </body>
+</html>
