@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel Feedback</title>
+  </head>
+  <body>
+    <h1>Hotel Feedback Form </h1>
+
+    <<form  method="get">
+    <!-- Radio button -->
+    <h2> Are you from inside or outside of USA</h2>
+    <label for="InUSA">Inside: </label>
+    <input id ="InUSA" type="radio" name="loc" value="inside">
+<!-- If you give raido button same name you cannot have both selected at once -->
+    <label for="OutUSA">Outside: </label>
+    <input id ="OutUSA" type="radio" name="loc" value="outside">
+
+    <h2> How was your service?</h2>
+
+    <!-- Dropdown menue -->
+    <select name="stars">
+      <option value="Great">3</option>
+      <option value="Okay">2</option>
+      <option value="Bad">1</option>
+
+    </select>
+
+    <h2> Anyother feedback?</h2>
+    <!-- Not just a text box but a bigger text area input -->
+    <<textarea name="name" rows="8" cols="80"></textarea>
+    <input type="submit" name="" value="Submit">
+
+    </form>
+
+  </body>
+</html>
