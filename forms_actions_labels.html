@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!-- When click on submit go to facebook -->
+    <form action ="https://www.facebook.com" method="get">
+      <!-- When you hit submit it gets attached to the url at the end (when click submit it goes to facebook)-->
+      <p>Enter Email</p>
+      <input  type="email" name="text" value="Enter your email ">
+      <input  type="submit" name="useremail" value="Submit">
+
+      <p> Enter some text</p>
+      <!-- tHIS MAKES Text on same line as input box -->
+      <label>
+        Enter text:
+      <input  type="text" name="text" value="Enter Text ">
+    </label>
+
+<!-- Combine multiple text next to box without having to repeat -->
+<!-- Group or label inputs with for and find with id -->
+    <label for = "userinput">Enter Input:</label>
+    <input id= "userinput" type="text" name = "" value="Hello">
+    <input id= "userinput" type="text" name = "" placeholder="Not required">
+    <!-- makes it so you cannot submit until filed is required -->
+    <input id= "userinput" type="text" name = "" placeholder="Enter Text Here" required>
+    <input type="submit" name="" value = "Submit">
+
+  </label>
+    </form>
+  </body>
+</html>
