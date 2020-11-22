@@ -1,0 +1,20 @@
+
+/* body{ /* can say background: blue; */
+  background: url(https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4.jpg);
+
+}
+
+div{
+  background-color: gray;
+  border-color: red; /*need boarder witdth and style too */
+  border-width: 10px;/*10 pixles can also pick thick*/
+  border-style: dotted;
+
+}
+span{
+  background-color: orange;
+}
+
+p{
+  color:green;
+}

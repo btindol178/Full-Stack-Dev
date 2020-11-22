@@ -1,0 +1,21 @@
+/* This is how you make a comment*/
+/* some text just use highlight cntrol forward slash is a comment */
+/* selected tag{
+  property: value;
+} */
+
+h1{
+  color: blue;
+}
+
+li{
+  color: rgb(8,84,1); /* use rgb for color*/
+}
+
+p{
+  color: #0895a8; /*hex codes for color*/
+}
+
+h4{
+  color: rgba(255,97,0,1) /*alpha or a is transparentness */
+}
