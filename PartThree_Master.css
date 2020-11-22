@@ -1,0 +1,31 @@
+
+.firstDiv{ /* better than div{color:blue this selects all divs}*/
+  color:blue;
+}
+.secondDiv{
+  color:red;
+}
+
+/* classes use hash tag*/
+#singledout{
+  color:green;
+  text-decoration: line-through;
+}
+
+* { /* can use this to select all elements in html */
+  color:black;
+}
+
+h3 + ul { /* any unordered list next to h3 is now 4px dotted */
+  border: 4px dotted purple;
+}
+
+li a{ /*all anchor tag inside list has color red */
+  color: red;
+}
+
+/* if list has anchor that is npr then color blue and border orange */
+li a[href = "www.npr.org"]{
+  color:blue;
+  border: 5px solid orange;
+}
