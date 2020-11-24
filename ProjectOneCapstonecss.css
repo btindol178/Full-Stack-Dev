@@ -1,0 +1,35 @@
+body{
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color: #011627;
+  color: #FDFFFC;
+  text-align: center;
+  border: 40px solid #2EC486;
+  border-top: 0px;
+  margin: 0px;  /* this is the side*/
+}
+
+
+p{
+  /* elongates the page */
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%
+}
+
+form{
+  /* make in relation to body text at 1.5 */
+  font-size: 1.5em;
+  /* border doesnt touch bottom button */
+  margin-bottom: 10px;
+}
+
+#sub{
+  background-color: #FF9F1C;
+  height: 80px;
+  width: 150px;
+  margin: 4px;
+  margin-top: 12px;
+  font-size:  1.5em;
+  /* round corners */
+  border-radius: 25px;
+}
