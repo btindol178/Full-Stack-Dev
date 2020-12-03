@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Main Page</title>
+  </head>
+  <body>
+   <h1> This is the header </h1>
+   <p>
+
+      You will use javascript file to change the size of the header,
+       but first we need to learn how to use JavaScript to actually grab the HTML objects
+        from the DOM.
+
+    </p>
+    <p> Here are some important document attributes:</p>
+    <ul class = 'myul'>
+        <li id ='pickme'> Document.URL -- This is actually url of website</li>
+        <li>Document.body -- This is actually everything inside body</li>
+        <li>Document.head -- Tis is everything in the head of page</li>
+        <li>Document.links -- There are all the links on the page</li>
+    </ul>
+    <p> Then we also have methods we can use to grab HTML elements:</p>
+
+    <ul class = 'myul'>
+        <li>Document.getElementById() -- Returns the element with the id</li>
+        <li>Document.getElementByClassName() -- Returns list of all elements beloging to Document.getElementByClassName</li>
+        <li>Document.getElementsByTagName() -- Returns list of all elements with the tag</li>
+        <li>Document.querySelector() -- Returns the first object matching the CSS style Document.querySelector</li>
+        <li>Document.querySelectorAll() -- Returns all objects matchin the CSS style selector</li>
+    </ul>
+    <p>
+    The first three of these are pretty selfe explanatory.
+    The querySelector() can accept CSS style selector, so you can use # or.
+    if you want ids or classes. basically a more generalized method where you can type any CSS style. The difference between query selector and query selector all is query selector returns first match?
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+
+
+
+  </body>
+  <script src = 'domjs.js' </script>
+</html>
